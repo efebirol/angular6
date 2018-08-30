@@ -17,14 +17,12 @@
 .settings/
 *.sublime-workspace
 
-# IDE - VSCode - Visual Studio
+# IDE - VSCode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-*.history/*
-
 
 # misc
 /.sass-cache
@@ -39,3 +37,12 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+#Visual Studio
+.history
+*.history
+/.history/my-first-app/*
+*/.history/my-first-app/*
+**/.history/my-first-app/*
+*/.history/my-first-app/*
+**.gitignore_2018*

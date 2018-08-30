@@ -17,14 +17,14 @@
 .settings/
 *.sublime-workspace
 
-# IDE - VSCode - Visual Studio
+# IDE - VSCode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-*.history/*
-
+**/.history
+*/*
 
 # misc
 /.sass-cache
