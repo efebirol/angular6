@@ -5,8 +5,9 @@ import { Component } from "@angular/core";
     selector: 'app-server',
     // templateUrl: './server.component.html'
     template: `
-    <app-server></app-server>
-    <app-server></app-server>
+    -- server.compontent.ts - Start
+    <app-mein-modul></app-mein-modul>
+    -- server.compontent.ts - End
     `
 })
 
