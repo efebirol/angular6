@@ -3,6 +3,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-mein-modul',
   // templateUrl: './mein-modul.component.html',
+
+  //kann hier bestimmen, was in diesem Template ausgegeben wird (auch andere Templates)
   template: `
     <app-testtemplatecompontent></app-testtemplatecompontent>
     <app-testtemplatecompontent></app-testtemplatecompontent>

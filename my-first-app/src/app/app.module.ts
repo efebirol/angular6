@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { MeinModulComponent } from './mein-modul/mein-modul.component';
 import { TesttemplatecompontentComponent } from './testtemplatecompontent/testtemplatecompontent.component';
+import { MeindatabindingComponent } from './meindatabinding/meindatabinding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     MeinModulComponent,
-    TesttemplatecompontentComponent
+    TesttemplatecompontentComponent,
+    MeindatabindingComponent
   ],
   imports: [
     BrowserModule
