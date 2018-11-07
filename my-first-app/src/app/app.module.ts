@@ -9,6 +9,7 @@ import { MeinModulComponent } from './mein-modul/mein-modul.component';
 import { TesttemplatecompontentComponent } from './testtemplatecompontent/testtemplatecompontent.component';
 import { MeindatabindingComponent } from './meindatabinding/meindatabinding.component';
 import { MeinpropertybindingComponent } from './meinpropertybinding/meinpropertybinding.component';
+import { MeinstringinterpolationComponent } from './meinstringinterpolation/meinstringinterpolation.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MeinpropertybindingComponent } from './meinpropertybinding/meinproperty
     MeinModulComponent,
     TesttemplatecompontentComponent,
     MeindatabindingComponent,
-    MeinpropertybindingComponent
+    MeinpropertybindingComponent,
+    MeinstringinterpolationComponent
   ],
   imports: [
     BrowserModule,
