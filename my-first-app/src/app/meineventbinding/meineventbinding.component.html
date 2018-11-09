@@ -1,0 +1,14 @@
+<section>
+    <h1>Event Binding</h1>
+    <button class="btn btn-primary" 
+      [disabled]="!allowNewServer"
+      (click)="onCreateServer()"  
+    >
+    Button Property Binding und Event Binding
+    </button>
+    <p>
+      <b>Event Binding:</b> {{serverCreationStatus}}
+    </p>
+  </section>
+  
+  
