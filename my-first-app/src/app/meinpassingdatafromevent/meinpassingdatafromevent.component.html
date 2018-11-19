@@ -1,0 +1,14 @@
+<section>
+  <h1>Databinding - über Eventbinding Daten weitergeben</h1>
+
+  <!-- 
+    Bootstrap Styling mit class="form-control" 
+  -->
+  <label>Beispiel von Eventbinding Daten Weitergabe $event</label>
+  <input type="text" class="form-control" (input)="onUpdateServerName($event)">
+  <p>
+    Variablen von Events an Template:
+    <b>{{serverName}}</b>
+  </p>
+
+</section>

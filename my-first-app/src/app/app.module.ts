@@ -11,6 +11,7 @@ import { MeindatabindingComponent } from './meindatabinding/meindatabinding.comp
 import { MeinpropertybindingComponent } from './meinpropertybinding/meinpropertybinding.component';
 import { MeinstringinterpolationComponent } from './meinstringinterpolation/meinstringinterpolation.component';
 import { MeineventbindingComponent } from './meineventbinding/meineventbinding.component';
+import { MeinpassingdatafromeventComponent } from './meinpassingdatafromevent/meinpassingdatafromevent.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MeineventbindingComponent } from './meineventbinding/meineventbinding.c
     MeindatabindingComponent,
     MeinpropertybindingComponent,
     MeinstringinterpolationComponent,
-    MeineventbindingComponent
+    MeineventbindingComponent,
+    MeinpassingdatafromeventComponent
   ],
   imports: [
     BrowserModule,
